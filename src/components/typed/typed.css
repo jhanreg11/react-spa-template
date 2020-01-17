@@ -1,0 +1,9 @@
+.typed {
+  display: flex;
+  align-items: center;
+}
+
+.caret {
+  width: 32px;
+  height: 45px;
+}

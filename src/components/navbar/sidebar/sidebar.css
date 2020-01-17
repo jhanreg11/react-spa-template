@@ -1,0 +1,38 @@
+.side-bar {
+  height: 100%;
+  width: 60%;
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  background-color: var(--light);
+  transform: translateX(100%);
+  -webkit-transition: transform 0.3s ease-out;
+  -moz-transition: transform 0.3s ease-out;
+  -ms-transition: transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.side-bar.open {
+  transform: translateX(0);
+}
+
+.side-item {
+  font-size: 1.2em;
+  z-index: 200;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.side-item > a {
+  text-decoration: none;
+  color: var(--gunmetal);
+}
+
+.side-item > a:hover {
+  color: var(--green-blue)
+}

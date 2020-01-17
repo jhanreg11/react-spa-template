@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+
+import Navbar from './components/navbar/navbar'
+
+import LandingPage from './pages/landing-page/landing-page'
+import AboutPage from './pages/about-page/about-page'
+
+const sections = [
+  {
+    name: 'About',
+    to: '#about'
+  },
+  {
+    name: 'Lorem',
+    to: ''
+  },
+  {
+    name: 'Ipsum',
+    to: ''
+  },
+  {
+    name: 'Dolor',
+    to: ''
+  }
+]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar items={sections} navbrand="LOGO"/>
+      <div id='body'>
+        <LandingPage/>
+        <AboutPage/>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
