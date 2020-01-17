@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React SPA Template
+
+This is a simple single-page application template in react, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
