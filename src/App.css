@@ -2,13 +2,11 @@
 
 #root {
   font-family: 'Share Tech', sans-serif;
-  --gunmetal: #122932;
-  --green-blue: #476A6F;
-  --light-green: #519E8A;
-  --light-blue: #8DA7BE;
-  --alabaster: #F2F0E6;
-  --light: #D7E1E5;
-  --electric-green: #64FFDA;
+  --nav-color: #000000;
+  --background-color: #FFFFFF;
+  --font-main: #000000;
+  --font-nav: #FFFFFF;
+  --font-nav-active: #FF0000;
   height: 100%;
   width: 100%;
 }

@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   z-index: 200;
-  background: none;
+  background: var(--nav-color);
 }
 
 #navbrand > a {
@@ -15,7 +15,7 @@
   text-decoration: none;
   font-size: 2.7em;
   margin-left: 1vw;
-  color: var(--gunmetal)
+  color: var(--font-nav)
 }
 
 #spacer {
@@ -39,11 +39,11 @@
 
 .nav-item > a {
   text-decoration: none;
-  color: var(--gunmetal)
+  color: var(--font-nav);
 }
 
 .nav-item > a:hover {
-  color: var(--green-blue)
+  color: var(--font-nav-active)
 }
 
 @media (max-width: 678px) {
