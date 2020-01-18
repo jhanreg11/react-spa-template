@@ -19,11 +19,11 @@
 .toggle-line {
   width: 100%;
   height: 5px;
-  background: var(--gunmetal);
+  background: var(--font-nav);
 }
 
 #toggle-button:hover .toggle-line {
-  background: var(--green-blue);
+  background: var(--font-nav-active);
 }
 
 @media (min-width: 678px) {

@@ -6,7 +6,7 @@
   top: 0;
   right: 0;
   z-index: 3;
-  background-color: var(--light);
+  background-color: var(--nav-color);
   transform: translateX(100%);
   -webkit-transition: transform 0.3s ease-out;
   -moz-transition: transform 0.3s ease-out;
@@ -30,9 +30,9 @@
 
 .side-item > a {
   text-decoration: none;
-  color: var(--gunmetal);
+  color: var(--font-nav);
 }
 
 .side-item > a:hover {
-  color: var(--green-blue)
+  color: var(--font-nav-active);
 }
